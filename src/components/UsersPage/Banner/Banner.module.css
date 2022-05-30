@@ -1,0 +1,66 @@
+.Banner {
+    width: 1116px;
+    height: 509px;
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.BannerButtonLeft {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 61px;
+    top: 420px;
+    background: #000000;
+    color: black;
+    border: 1px solid #FFFFFF;
+    transform: rotate(0deg);
+}
+
+.BannerButtonRight {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1050px;
+    top: 420px;
+    background: #000000;
+    color: black;
+    border: 1px solid #FFFFFF;
+    transform: rotate(360deg);
+}
+
+.BuyButton{
+    box-sizing: border-box;
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    left: 460px;
+    top: 420px;
+    background: #ffffff;
+    color: black;
+    border: 1px solid #FFFFFF;
+}
+
+.BannerText, .BannerTextData {
+    box-sizing: border-box;
+    position: absolute;
+    height: 60px;
+    left: 361px;
+    top: 227px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.BannerTextData {
+    top: 290px;
+    left: 460px;
+    font-size: 30px;
+}

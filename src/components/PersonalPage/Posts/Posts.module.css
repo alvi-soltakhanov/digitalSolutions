@@ -1,0 +1,58 @@
+
+
+.PostsBlock {
+    width: 1116px;
+    min-height: 150px;
+    margin: auto;
+    padding: 53px;
+    border: 1px solid black;
+}
+
+
+.Title {
+    width: 97px;
+    height: 40px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.OnePost {
+    width: 48%;
+    min-height: 145px;
+    border: 1px solid black;
+    padding: 14px 53px;
+    margin: 0 0 15px 0;
+}
+
+.Name {
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.Description {
+    margin: 10px 0;
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.AllPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

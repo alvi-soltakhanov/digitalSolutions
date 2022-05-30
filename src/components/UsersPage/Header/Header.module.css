@@ -1,0 +1,38 @@
+.Header {
+    width: 1116px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    background-color: #000000;
+}
+
+.Header div {
+    width: 50%;
+}
+
+.Header:first-child {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.Header img {
+    margin-left: 15px;
+}
+
+.Header:nth-child(2n) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header button {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 5px;
+    width: 257px;
+    height: 40px;
+    background: #FFFFFF;
+    line-height: 10px;
+}

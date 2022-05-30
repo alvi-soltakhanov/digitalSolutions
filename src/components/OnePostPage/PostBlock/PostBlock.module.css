@@ -1,0 +1,52 @@
+.PostBlock {
+    width: 1116px;
+    margin: auto;
+    padding: 55px;
+}
+
+.Title {
+    margin: 40px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.body {
+    text-align: justify;
+}
+
+.Wrire {
+    margin: 40px;
+}
+
+.allComments {
+    text-align: justify;
+    overflow: scroll;
+    padding: 70px;
+    width: 800px;
+    height: 400px;
+    margin: 50px 0;
+    margin: auto;
+}
+
+.comment {
+    padding: 15px;
+}
+
+.Write {
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Write input {
+    margin: 10px;
+}
+
+
+.Write button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,29 @@
+
+
+.Publication {
+    width: 1116px;
+    min-height: 150px;
+    margin: auto;
+    padding: 53px;
+    border: 1px solid black;
+}
+
+
+.Title {
+    width: 97px;
+    height: 40px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.OnePost {
+    border: 1px solid black;
+    width: 154px;
+    height: 154px;
+    background-color: aliceblue;
+}

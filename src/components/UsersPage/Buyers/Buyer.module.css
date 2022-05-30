@@ -1,0 +1,55 @@
+
+
+
+.Buyer {
+    width: 1080px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.Title {
+    width: 1116px;
+    height: 70px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    text-align: left;
+    margin-top: 31px;
+}
+
+.Card {
+    width: 239px;
+    height: 143px;
+    background: linear-gradient(99.41deg, #ffffff -13.51%, #ffffff 113.28%);
+    border: 1px solid #DADADA;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.CardName {
+    margin: 14px 0 0 17px;
+}
+
+.CardCity {
+    margin-left: 17px;
+}
+
+.CardsButton {
+    margin: 20px 0 15px 17px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    width: 143px;
+    font-size: 11px;
+}
+
+.ListBuyers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
